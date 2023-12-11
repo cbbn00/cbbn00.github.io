@@ -1,4 +1,4 @@
-baseurl      = "localhost"
+baseurl      = "https://cbbn00.github.io"
 title        = "cbbn0_0's Saibāsupēsu"
 #languageCode = "en-us"
 theme        = "hello-friend-ng"
