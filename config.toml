@@ -1,3 +1,111 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseurl      = "localhost"
+title        = "cbbn0_0's Saibāsupēsu"
+#languageCode = "en-us"
+theme        = "hello-friend-ng"
+paginate     = 10
+
+enableEmoji = true
+
+PygmentsCodeFences = true
+PygmentsStyle      = "native"
+  
+
+
+[params]
+  
+
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan, 2006"
+  dateformNum     = "02-01-2006"
+  dateformNumTime = "02-01-2006 15:04"
+
+  #theme toggle
+  enableThemeToggle = true
+
+
+
+#home stuff
+  # Subtitle for home
+  homeSubtitle = "a rustic space for offensive exploration and more"
+
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+  # Enable sharing buttons, if you like
+  enableSharingButtons = false
+  # Show a global language switcher in the navigation bar
+  enableGlobalLanguageMenu = false
+
+  # Metadata mostly used in document's head
+  description = "cbbn0_0's Saibāsupēsu"
+  #keywords = "homepage, blog"
+  #images = [""]
+
+
+#logo content
+
+[params.logo]
+    logoText = "/home/cbbn/"
+    logoHomeLink = "/"
+
+
+#socials
+
+[[params.social]]
+  name = "twitter"
+  url = "https://twitter.com/cbbn0_0"
+
+[[params.social]]
+  name = "github"
+  url = "https://github.com/cbbn00"
+
+[[params.social]]
+  name = "linkedin"
+  url = "https://linkedin.com/cbbn00"
+
+[[params.social]]
+  name = "email"
+  url = "mailto:cbbn.inbox@skiff.com"
+
+
+#taxonomies
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+
+#menu items
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "about"
+    url        = "about/"
+
+
+  [[menu.main]]
+    identifier = "blog"
+    name       = "posts"
+    url        = "/posts"
+
+  [[menu.main]]
+    identifier = "tags"
+    name       = "tags"
+    url        = "/tags"
+
+
+
+ #footer   
+
+[params.footer]
+    trademark = false
+    rss = false
+    copyright = true
+    author = true
+
+    topText = []
+    bottomText = [
+      "built with <a href=\"http://gohugo.io\">Hugo</a>, theme by <a href=\"https://github.com/rhazdon\">rhazdon</a>, inspired by <a href=\"https://casvancooten.com\">Cas Van Cooten's blog</a>"
+    ]
