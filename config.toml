@@ -1,5 +1,5 @@
-baseurl      = "https://cbbn00.github.io"
-title        = "cbbn0_0's Saibāsupēsu"
+baseurl      = "https://cbbn00.github.io/"
+title        = "cbbn0_0's saibāsupēsu"
 #languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
@@ -37,7 +37,7 @@ PygmentsStyle      = "native"
   enableGlobalLanguageMenu = false
 
   # Metadata mostly used in document's head
-  description = "cbbn0_0's Saibāsupēsu"
+  description = "cbbn0_0's saibāsupēsu"
   #keywords = "homepage, blog"
   #images = [""]
 
